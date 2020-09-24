@@ -1,0 +1,338 @@
+/* /////////////////////////// BUTTON TAG /////////////////////////// */
+button{
+    margin-left: 8%;
+    margin-top: 3%;
+    font-size: 20px;
+    padding: 0.5%;
+    padding-left: 1%;
+    padding-right: 1%;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+button:enabled{
+    color: white;
+    background-color: #0ca2fd;
+    border: none;
+    border-radius: 0px;
+    padding: 0.6%;
+    padding-left: 1%;
+    padding-right: 1%;
+}
+/* ///////////////////////// INDEX PAGE ////////////////////// */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.addText{
+    font-size: 22px;
+}
+#format{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+    background-color: #0a5a5e;
+    background-size: cover;
+ }
+ .welcome_text{
+    background-color: transparent;
+    width: 400px;
+}
+.welcome_form input,
+.welcome_form button{
+    display: block;
+    width: 100%;
+}
+.welcome_form input{
+    margin-bottom: 15px;
+    background-color: transparent;
+    border: none;
+    color: #fff;
+    border-bottom: 2px solid #fff;
+    font-size: 30px;
+    text-align: center;
+}
+.welcome_form button{
+    font-size: 22px;
+    padding: 20px 0px;
+    border: none;
+    color:#0a5a5e ;
+    border-radius: 100px;
+    margin: 0px;
+    transition: 0.4s all;
+    background-color: #ffffff;
+}
+.welcome_form button:hover{
+    transform: translateY(-5px);
+    background-color: #ffffff;
+    cursor: pointer;
+    color:#0a5a5e;
+}
+.welcome_form input:focus,
+.welcome_form button:focus{
+    outline: none;
+}
+/* ///////////////////////// QUESTION PAGE //////////////////// */
+.wrapper{
+    background-color:white;
+    margin: 4%;
+}
+.container{
+    background-color: #d9d9d9;
+    padding-bottom: 3%;
+    font-family: sans-serif;
+    cursor: pointer;
+} 
+#header_tag{
+    background-color:#0a5a5e;
+    color:#141414;
+    padding: 20px;
+    margin: 10px 0px 5px 0px ;
+    font-size: 30px;
+    text-align:left;
+}
+.quizTitle{
+    font-family: sans-serif;
+    color: #e3dd87;
+}
+#but{
+    float: right;
+    margin: -70px 30px 10px 0px;
+    font-size: 50px;
+    color: white;
+}
+#header_no{
+    float: right;
+    margin: -58px 80px 0px 0px ;
+    font-size: 20px;
+    color: #e3dd87;
+    border: 1px solid;
+    padding: 5px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 10%;
+}
+#anothertag {
+    font-size: 22px;
+    color: black;
+    background-color: white;
+    height: 5px;
+    width: 200px;
+    display: inline-block;
+    padding: 8px 4px 32px 4px;
+    margin-left: 0px;
+    text-align: center;
+    margin-top: 3px;
+}
+#quizNumber{
+    margin-top: 1%;
+}
+#time_tag{
+    font-size: 22px;
+    color: black;
+    background-color: white;
+    padding: 8px 4px 32px 4px;
+    height: 5px;
+    width: 200px;
+    display: inline-block;
+    text-align:center;
+    float: right;
+    margin-right: 0px ;
+    margin-top: 3px;
+}
+#correctClass {
+    color: black;
+    background-color: #ffffff;
+    font-size: 22px;
+    height: 25px;
+    width: 200px;
+    display: inline-block;
+    text-align: center;
+    padding-top: 9px;
+    margin-top: 3px;
+    padding-bottom: 30px;
+}
+#footer{
+    background-color:#0a5a5e;
+    padding: 25px;
+    margin: 80px 0px -50px 0px;
+}
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    padding-top: 100px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%; 
+    overflow: auto;
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0,0.4); 
+}
+.modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 1%;
+    border: 1px solid #888;
+    width: 25%;
+    margin-top: 13%;
+    text-align: center;
+}
+.close {
+    visibility: hidden;
+}
+.quit{
+    margin-right: 12%;
+    margin-left: 13%;
+    font-size: 20px;
+}
+#quitTag{
+    margin-right: 54%;
+    width: 38%;
+    padding: 3%;
+    margin-left: 4%;
+    margin-top: 6%;
+}
+#startTag{
+    margin-right: 4%;
+    display: inline-block;
+    margin-left: -51%;
+    width: 38%;
+    padding: 3%;
+}
+li {
+    list-style-type: none;
+    text-align: left;
+    background-color: white;
+    margin-right: 18%;
+    margin-bottom: 0.3%;
+    margin-left: 8%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-left: 3%;
+    font-size: 20px;
+}
+.correct{
+    background-color: #3b9b5b;
+    color: white;
+}
+.wrong{
+    background-color: #fe6553;
+    color: white;
+}
+h2{
+    padding-left: 6%;
+    padding-bottom: 2%;
+    padding-top: 2%;
+}
+.active{
+    background-color: #00a2f3;
+    color:white;
+}
+/* ///////////////////////////// END PAGE ///////////////////////// */
+.endWrapper{
+    background-color:#d9d9d9;
+    margin: 3%;
+}
+#endheader_tag{
+    color: #fffaaa;
+    background-color: #015a5e;
+    padding: 20px;
+    font-size: 33px;
+    margin:10px 10px 5px 10px;
+    font-family: sans-serif;
+}
+#endScore{
+    background-color: #fff;
+    margin-left: 24%;
+    margin-right: 36%;
+    margin-top: 5%;
+    width: 48%;
+    padding: 3%;
+    padding-top: 17%;
+    padding-bottom: 1%;
+}
+#dearDiv{
+    margin-top: -10%;
+    font-family: sans-serif;
+    text-align: center;
+}
+#concatDear{
+    margin-top: -30%;
+    font-family: sans-serif;
+    text-align: center;
+    padding-bottom: 5%;
+    font-size: 24px;
+}
+#sorryWord{
+    text-align: center;
+    font-size: 40px;
+    font-family: sans-serif;
+    color: #f00;
+    margin-top: -2.5%;
+    padding-top: 1%;
+}
+#endDate{
+    float: right;
+    margin-left: 36%;
+    margin-top: -4%;
+    font-family: sans-serif;
+    font-size: 20px;
+}
+#congratulationWord{
+    font-size: 40px;
+    font-family: sans-serif;
+    color: green;
+    text-align: center;
+}
+#trophy{
+    text-align: center;
+    font-size: 90px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+#highScoreStatement{
+    text-align: center;
+    font-family: sans-serif;
+    margin-top: 2%;
+    font-size: 22px;
+}
+#user_Points{
+    font-family: sans-serif;
+    text-align: center;
+    font-size: 22px;
+    padding-top: 25px;
+}
+#sadFace{
+    font-size: 90px;
+    text-align: center;
+} 
+#lowScoreStatement{
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 18px;
+    margin-top: 4%;
+}
+#endFooter{
+    background-color: #015a5e;
+    color: #fff;
+    margin-left: 24%;
+    margin-right: 28%;
+    padding: 0.8%;
+    font-family: sans-serif;
+    text-align: center;
+    font-size: 22px;
+}
+.closeIcon{
+    color: #fe6553;
+    font-size: 22px;
+}
+#lastFooter{
+    padding: 30px;
+    margin:10px 10px 5px 10px;
+    background-color: #015a5e;
+    margin-top: 3%;
+}

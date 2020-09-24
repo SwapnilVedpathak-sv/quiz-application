@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./CSS/style.css">
+    <link rel="stylesheet" href="./CSS/queries.css">
+    <title>Quiz Application</title>
+</head>
+
+<body>
+    <div id="format">
+        <div class='welcome_text'>
+            <form class='welcome_form' onsubmit="submitForm(event)" name="welcom_form">
+                <input type="text" name="name" class="addText" placeholder="Enter your full name..." maxlength="40">
+                <button type="submit" id="submit">Start quiz</button>
+            </form>
+        </div>
+    </div>
+    <script>
+        function submitForm(e) {
+            e.preventDefault();
+            let name = document.forms["welcom_form"]["name"].value;
+            if (name == "") {
+                alert(" Please Enter Your Name!!! ")
+            } else {
+                sessionStorage.setItem("name", name)
+                location.href = "questions.html";
+            }
+        }
+    </script>
+</body>
+
+</html>

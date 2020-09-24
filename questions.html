@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./CSS/style.css">
+    <link rel="stylesheet" href="./CSS/queries.css">
+    <title>Quiz Application</title>
+</head>
+
+<body class="wrapper">
+    <div class="container">
+        <div id="header_tag">
+            <header class="quizTitle">Basic HTML Quiz</header>
+        </div>
+        <div id="but">
+            <header>×</header>
+        </div>
+        <div id="header_no"></div>
+        <div id="anothertag">
+            <b>
+                <p id="quizNumber"></p>
+            </b>
+        </div>
+        <div id="time_tag">
+            <b><span class="time">00:00:00</span></b>
+        </div>
+        <div id="correctClass">
+            <b><span id="correctTag">0/7 Correct</span></b>
+        </div>
+        <div class="quiz_body">
+            <div id="questions"></div>
+            <button type="button" name="button" id="submit" class="btn-next" disabled>Submit</button>
+        </div>
+        <footer id="footer"></footer>
+        <div id="myModal" class="modal">
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <p class="quit">Are You Sure! You want to Exit the Assessment?</p>
+                <button id="quitTag">Yes</button>
+                <button id="startTag">No</button>
+            </div>
+        </div>
+    </div>
+    <script src="./JS/questions.js"></script>
+    <script src="./JS/timer.js"></script>
+</body>
+
+</html>

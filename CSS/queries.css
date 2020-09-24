@@ -1,0 +1,108 @@
+@media only screen and (max-width :1200px){
+    #congratulationWord{
+        font-size: 21px;
+        text-align: center;
+    }
+}
+
+
+@media only screen and (max-width :480px){
+    .modal-content {
+        margin: auto;
+        padding: 2%;
+        width: 57%;
+        margin-top: 20%;
+    }
+    .quit{
+        margin-right: 12%;
+        margin-left: 12%;
+        font-size: 100%;
+    }
+    #quitTag{
+        margin-right: 54%;
+        padding: 3%;
+        margin-left: 4%;
+        margin-top: 6%;
+    }
+    #startTag{
+        margin-right: 4%;
+        margin-left: -51%;
+        padding: 3%;
+    }
+}
+
+
+@media only screen and (max-width : 1024px){
+    #but{
+        margin-top: -75px;
+    }
+    #header_tag {
+        padding: 20px;
+        margin: -4px 0px 16px 0px;
+        font-size: 30px;
+        padding-left: 1%;
+        padding-bottom: 3%;
+    }
+    #header_no {
+        margin: -63px 88px 0px 0.5%;
+        font-size: 99%;
+        padding: 5px;
+        padding-left: 2%;
+    }
+    #time_tag {
+        margin-top: 0%;
+    }
+    h2 {
+        margin-top: 6%;
+    }
+    li {
+        margin-top: 0.7%;
+    }
+}
+
+
+@media only screen and (max-width : 800px){
+    #but{
+        margin-top: -75px;
+        margin-right: 3%;
+    }
+    #header_tag {
+        padding: 20px;
+        margin: -4px 0px 16px 0px;
+        font-size: 30px;
+        padding-left: 1%;
+        padding-bottom: 3%;
+    }
+    #header_no {
+        margin: -61px 63px 0px 0.5%;
+        font-size: 99%;
+        padding: 5px;
+        padding-left: 2%;
+        width: 23%;
+    }
+    #anothertag {
+        font-size: 22px;
+        height: 5px;
+        width: 200px;
+        padding: 8px 4px 32px 4px;
+        margin-left: 0px;
+        margin-top: 3px;
+        margin-top: -1.5%;
+        }
+    #time_tag {
+        margin-top: -1%;
+    }
+    h2 {
+        margin-top: 6%;
+        padding-bottom: 3%;
+    }
+    li {
+        margin-top: 0.7%;
+    }
+    .modal-content{
+        width: 40%;
+    }
+    button{
+        margin-top: 6%;
+    }
+}
